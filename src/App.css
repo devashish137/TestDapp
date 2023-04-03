@@ -1,0 +1,107 @@
+.App{
+background: #6868AC;
+    font-family: 'Gambetta', serif;
+}
+.appname{
+  padding: 2rem;
+  font-size: 2rem;
+    text-transform: uppercase;
+    font-family: 'Gambetta', serif;
+    letter-spacing: 2px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+    color: rgb(255, 255, 255);
+    outline: none;
+    text-align: center;
+  }
+.button{
+  margin:3rem;
+}
+.App-header {
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+}
+
+.main{
+  
+      font-family: 'Calligraffitti', cursive;
+      font-weight: 700;
+      font-size: 13rem;
+      position: absolute;
+      text-shadow: -15px 5px 20px #ced0d3;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      letter-spacing: 0.02em;
+      text-align: center;
+      color: #F9f1cc;
+      text-shadow: 5px 5px 0px #FFB650,
+        10px 10px 0px #FFD662,
+        15px 15px 0px #FF80BF,
+        20px 20px 0px #EF5097,
+        25px 25px 0px #6868AC,
+        30px 30px 0px #90B1E0;
+}  
+
+.appname:hover {
+  font-variation-settings: "wght" 582;
+  letter-spacing: 5px;
+}
+.walletinfo{
+  margin-bottom: 2rem;
+  position: relative;
+  right: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  column-gap: 0rem;
+  letter-spacing: 2px;
+  
+}
+.heading{
+  display: flex;
+  justify-content: space-between;
+}
+.cryptotransfer{
+  text-align: center;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  padding: 2rem;
+  letter-spacing: 4px;
+  border-radius: 2rem;
+  font-size: 2rem;
+
+}  
+.centerpart{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.textarea {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  letter-spacing: 2px;
+  border-color: #F9f1cc;
+  outline: none;
+  border: none;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #000000;
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 0.2rem;
+  width: 100%;
+  height: 10rem;
+  resize: none;
+}
